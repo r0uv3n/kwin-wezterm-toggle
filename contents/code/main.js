@@ -17,7 +17,7 @@ function error(...args) {
 }
 
 function isWezTerm(win) {
-    return win.resourceClass === "org.wezfurlong.wezterm";
+    return win.resourceClass === "wezterm-gui";
 }
 
 function findWezTerm() {
